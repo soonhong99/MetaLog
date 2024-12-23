@@ -1,8 +1,8 @@
 ---
 name: "\U0001F41B Bug Report"
 about: 버그를 리포트할 때 사용하는 템플릿
-title: "[BUG] "
-labels: bug
+title: "[FE/BUG] "
+labels: bug, Discussion, major, minor, Non-code work, On-code work, urgent
 assignees: soonhong99
 
 ---
