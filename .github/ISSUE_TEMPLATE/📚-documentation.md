@@ -1,8 +1,8 @@
 ---
 name: "\U0001F4DA Documentation"
 about: 문서 업데이트를 제안할 때 사용하는 템플릿
-title: "[DOC] "
-labels: documentation
+title: "[FE/DOC] "
+labels: Discussion, documentation, major, minor, Non-code work, On-code work, urgent
 assignees: soonhong99
 
 ---

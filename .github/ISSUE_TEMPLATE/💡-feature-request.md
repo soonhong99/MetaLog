@@ -1,8 +1,8 @@
 ---
 name: "\U0001F4A1 Feature Request"
 about: 새로운 기능을 제안할 때 사용하는 템플릿
-title: "[FEATURE]"
-labels: enhancement
+title: "[FE/FEATURE]"
+labels: Discussion, enhancement, major, minor, Non-code work, On-code work, urgent
 assignees: soonhong99
 
 ---
