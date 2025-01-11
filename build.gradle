@@ -1,10 +1,14 @@
 plugins {
-    id 'java'
-    id 'org.springframework.boot' version '3.4.1' apply false
+    id 'java' // 자바 프로젝트임을 명시
+    id 'org.springframework.boot' version '3.4.1' apply false // 해당 플러그인을 즉시 적용하지 않겠다!
     id 'io.spring.dependency-management' version '1.1.7' apply false
 }
 
-allprojects {
+// bootJar.enabled = false -> apply false를 없애면 쓸 수 있다. 실행 가능한 jar 파일 생성을 비활성화하는 설정.
+// 어차피 실행되는 어플리케이션이 아닌 하위 모듈을 관리하는 컨테이너 역할만 하는데 왜 실행 가능한 jar 파일이 루트 프로젝트에 생성되어야 하는가!
+// 하지만 apply false를 하게되면 spring boot 플러그인이 적용되지 않기 때문에 두개중 하나만 없애도 된다. 아마?
+
+allprojects { // 루트 프로젝트를 포함한 모든 프로젝트에 적용될 설정
     group = 'com.metalog'
     version = '0.0.1-SNAPSHOT'
     sourceCompatibility = '17'
